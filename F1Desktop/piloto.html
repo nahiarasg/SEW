@@ -9,13 +9,19 @@
     <meta name = "keywords" content = "palabras, clave" />
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+
     <title>Piloto</title>
+    <link rel = "icon" href = "multimedia/images/favicon.ico" />
+    
 </head>
 
 <body>
     <!-- Datos con el contenidos que aparece en el navegador -->
-    <h1>F1 Desktop</h1>
+     <header>
+    <h1>
+        <a href = "index.html">F1 Desktop</a>
+    </h1>
     <nav>
         <a href="index.html"> Index</a>
         <a href = "piloto.html"> Piloto</a>
@@ -27,6 +33,11 @@
         <a href = "juegos.html"> Juegos</a>
     </nav>
 
+    </header>
+
+    <main>
+
+    <section>
     <h2>Sergio Pérez</h2>
 
     <h3>Datos personales</h3>
@@ -49,6 +60,10 @@
 
     </picture>
 
+    </section>
+
+    <section>
+
     <h3>Presentación</h3>
     <p>
         Checo Pérez comenzó a competir en la disciplina karting a una temprana edad en circuitos de su país, México. Años más tarde, cuando 
@@ -65,6 +80,8 @@
         a su gran admiración por el futbolista Iván Zamorano.
     </p>
 
+
+
     <h3>Algunas de sus aficiones</h3>
     <ul>
         <li>Practicar otros deportes: le gusta jugar tenis, futbol, golf y frontón</li>
@@ -73,6 +90,7 @@
         <li>Coleccionar automóviles</li>
         <li>Escuchar música pop: le gustan las canciones de Luis Miguel, Morat, Enrique Iglesias y Alejandro Fernández.</li>
     </ul>
+
 
     <h3>Equipos a los que perteneció</h3>
     <p>
@@ -86,6 +104,9 @@
         <li>RED BULL</li>
     </ol>
 
+    
+
+
     <!--imagen-->
     <picture>
         <source media = "(max-width: 900px)"
@@ -93,6 +114,10 @@
         <img src="multimedia/images/checoYcoche.png"
             alt="Imagen de Sergio Pérez junto a su equipo y coche" />
     </picture>
+
+    </section>
+
+    <aside>
 
     <h3>Terminología sobre la Fórmula 1</h3>
     <dl>
@@ -102,6 +127,10 @@
         <dt>Efecto suelo</dt> <dd>Es una capa adicional de magia aerodinámica que ayuda a que los autos se adhieran al suelo, lo que mejora el agarre y la velocidad en las curvas.</dd>
         <dt>Blistering</dt> <dd>Formación de ampollas (blister) en la superficie del neumático por sobrecalentamiento.</dd>
     </dl>
+
+    </aside>
+
+    <section>
 
     <h3>Resultados más destacados actualmente</h3>
     <p>A continuación se muestran los resultados más destacados de Checo Pérez en los últimos tres años.</p>
@@ -142,7 +171,12 @@
     <!-- Audio-->
     <p>Audio del piloto tras la carrera en Singapore de 2023 en la que quedó en octava posición:</p>
 
-    <audio src="multimedia/videos/audioCheco.mp3" controls></audio>
+    <audio controls>
+        <source src="multimedia/videos/audioCheco.mp3" type = "audio/mp3" >
+        <source src = "multimedia/videos/audioCheco.wav" type = "audio/wav" >
+    </audio>
+
+
 
     <h4>Resultados la última temporada</h4>
     <p>
@@ -155,29 +189,34 @@
         <!-- Primera fila de la tabla: (encabezados) -->
          <tr>
             <td>Piloto/Estadísticas</td>
-            <th>Puntos</th>
-            <th>Posición final</th>
-            <th>Poles Position</th>
-            <th>Victorias</th>
-            <th>Podios</th>
+            <th scope = col id = "Puntos" >Puntos</th>
+            <th scope = col id = "Posición" >Posición final</th>
+            <th scope = col id = "Poles" >Poles Position</th>
+            <th scope = col id = "Victorias" >Victorias</th>
+            <th scope = col id = "Podios" >Podios</th>
         </tr>
 
         <!-- Segunda fila de la tabla-->
          <tr>
-            <th>Checo Pérez</th>
-            <td>285</td>
-            <td>2º</td>
-            <td>2</td>
-            <td>2</td>
-            <td>9</td>
+            <th scope = rowgroup id = "Piloto" >Checo Pérez</th>
+            <td headers = "Puntos" >285</td>
+            <td headers = "Posición" >2º</td>
+            <td headers = "Poles" >2</td>
+            <td headers = "Victorias" >2</td>
+            <td headers = "Podios" >9</td>
          </tr>
 
     </table>
 
     <p>En el siguiente vídeo se resumen los mejores momentos de Checo Pérez en el año 2023.</p>
-    <video src = "multimedia/videos/videoCheco.mp4"
-            controls preload = "auto">
+    <video controls preload = "auto">
+        <source src = "multimedia/videos/videoCheco.mp4" type = "video/mp4" >
+        <source src = "multimedia/videos/videoCheco.webm" type = "video/webn" >
     </video>
+
+    </section>
+
+   
 
 
     <h3>Enlaces de interés</h3>
@@ -191,6 +230,6 @@
         <a href = "https://www.caranddriver.com/es/formula-1/pilotos/a3554/sergio-perez/" title = "Biografía Checo Perez">Biografía Checo Pérez</a>
     </p>
 
-    
+    </main>
 </body>
 </html>

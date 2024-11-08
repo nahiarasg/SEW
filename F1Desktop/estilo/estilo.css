@@ -1,0 +1,134 @@
+ 
+ /* Nahiara Sánchez García y UO295645*/
+
+ /* 
+ COLORES
+ - rojo: #F81D06
+ - blanco: #F8EEEA
+ - terracota: #A52A20
+ - rosado: #EC8C86
+ - terracota oscuro: #791E16
+
+ COMBINACIONES POSIBLES:
+ - terracota-blanco --> TERRACOTA COLOR LETRA; BLANCO COLOR FONDO.
+ - rosado-negro --> 
+ - blanco-negro --> NEGRO COLOR LETRA; BLANCO COLOR FONDO.
+ - blanco-terracotaOscuro --> TERRACOTA OSCURO LETRA; 
+ */
+
+ /* ESPECIFIDAD: 001 */
+ body{
+    font-family: "Calibri", sans-serif; 
+    color: #000; 
+    background-color: #fff; 
+ }
+
+ body section {
+  padding: 20px;
+  border-bottom: 2px solid lightgray;
+ }
+
+ /* ESPECIFIDAD: 002 */
+ body header {
+    font-family: "Calibri", sans-serif;
+    color: #000;
+    background-color: #fff;
+ }
+
+  /* ESPECIFIDAD: 002 */
+  body header h1 {
+   font-family: "Candara", sans-serif;
+   color: #000;
+   /* Hereda el color de fondo de header */
+}
+
+ body header h1 a {
+   font-family: "Calibri", sans-serif;
+   color: #000;
+   text-decoration: none;
+   /* color de fondo especificado en el header*/
+ }
+
+ /* ESPECIFIDAD: 003*/
+ header + p:has(a) {
+   font-size: smaller;
+ }
+
+
+
+ /* ESPECIFIDAD: 002 */
+ a {
+    color: #a52a20; 
+    /* Hereda el color de fondo de header*/
+ }
+
+
+
+ a:visited {
+    color: #000;
+ }
+
+  a:hover {
+   color: #f81d06;
+   /* Hereda el color de fondo de header*/
+}
+
+  a:focus {
+   color: #f81d06;
+ }
+
+
+
+ dt {
+   color: #a52a20;
+   font-weight: bold;
+ }
+
+ ul {
+   list-style-type: disc;
+ }
+
+
+
+
+ ol {
+   list-style-type: decimal;
+   font-size: medium;
+ }
+
+ dt {
+  line-height: 1.5;
+ }
+
+ table {
+  table-layout: fixed;
+  width: 50%;
+  border-collapse: collapse;
+  border: 1px solid gray;
+ }
+
+ td{
+  padding: 10px;
+  text-align: center;
+ }
+
+ th {
+  font-family: "Candara", sans-serif;
+ }
+
+ tr:nth-child(2n+1){
+  background-color: lightgray;
+ }
+
+ tr:nth-child(2n){
+  background-color: rgb(243, 240, 240);
+ }
+
+ caption{
+  font-family: "Candara", sans-serif;
+  padding: 20px;
+  caption-side: initial;
+  color: #F81D06;
+  font-weight: bold;
+  text-align: left;
+ }

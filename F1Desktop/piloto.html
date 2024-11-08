@@ -55,13 +55,14 @@
 
     <!-- Imagen de checo perez-->
     <picture>
-        <source srcset="multimedia/images/checoPremioMovil.jpg"
-            media = "(max-width: 465px)" />
-        <source srcset = "multimedia/images/checoPremioTablet.jpg"
-            media = "(max-width: 799px)" />
-        <img src="multimedia/images/checoPremio.jpg"
-            alt="Imagen de Sergio Pérez" />
-
+        <!-- para moviles -->
+        <source srcset="multimedia/images/checoPremioMovil.jpg" media = "(max-width: 465px)" />
+        <!-- para tablets -->
+        <source srcset = "multimedia/images/checoPremioTablet.jpg" media = "(max-width: 799px)" />
+        <!-- para monitores -->
+        <source srcset = "multimedia/images/checoPremioMonitor.jpg" media = "(min-width: 800px)" />
+        <!-- por defecto -->
+        <img src="multimedia/images/checoPremio.jpg" alt="Imagen de Sergio Pérez" />
     </picture>
 
     </section>
@@ -113,10 +114,14 @@
 
     <!--imagen-->
     <picture>
-        <source media = "(max-width: 900px)"
-            srcset="multimedia/images/checoYcoche.png" />
-        <img src="multimedia/images/checoYcoche.png"
-            alt="Imagen de Sergio Pérez junto a su equipo y coche" />
+        <source srcset="multimedia/images/checoYcocheMovil.png" media = "(max-width: 465px)" />
+
+        <source srcset="multimedia/images/checoYcocheTablet.png" media = "(max-width: 799px)" />
+
+        <source srcset="multimedia/images/checoYcocheMonitor.png" media = "(min-width: 800px)" />
+
+        <!-- por defecto -->
+        <img src="multimedia/images/checoYcoche.png" alt="Imagen de Sergio Pérez junto a su equipo y coche" />
     </picture>
 
     </section>
@@ -213,9 +218,9 @@
     </table>
 
     <p>En el siguiente vídeo se resumen los mejores momentos de Checo Pérez en el año 2023.</p>
-    <video controls preload = "auto">
-        <source src = "multimedia/videos/videoCheco.mp4" type = "video/mp4" >
-        <source src = "multimedia/videos/videoCheco.webm" type = "video/webn" >
+    <video controls preload="auto">
+        <source src="multimedia/videos/videoCheco.mp4" type="video/mp4" >
+        <source src="multimedia/videos/videoCheco.webm" type="video/webm" >
     </video>
 
     </section>

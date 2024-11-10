@@ -30,6 +30,11 @@ nav a {
      padding: 5px 8px;
 }
 
+nav a:visited {
+    columns: black;
+    font-weight: normal;
+}
+
 nav a:hover {
     background-color: #96271D;
     color: white;
@@ -37,7 +42,9 @@ nav a:hover {
 
   }
 
-  @media (max-width: 768px) {
+
+
+  @media (max-width: 700px) {
     header {
       display: flex; /* Usamos flexbox para el contenedor del título y el menú */
       flex-direction: column; /* Coloca el título y el menú en columnas */
@@ -56,7 +63,7 @@ nav a:hover {
       flex-direction: row; /* Los elementos de navegación estarán en una fila */
       width: 100%; /* Usa todo el espacio disponible */
       align-items: flex-start; /* Alinea los elementos a la izquierda */
-      padding: 0.5em 0em; /* Elimina el padding por defecto */
+      padding: 0.1em 0em; /* Elimina el padding por defecto */
       margin: 0; /* Elimina márgenes adicionales */
       flex-wrap: wrap   ;
     }

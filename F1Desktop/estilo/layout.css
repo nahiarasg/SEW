@@ -61,7 +61,7 @@ nav a:hover {
     nav {
       display: flex; /* Usamos flexbox para los enlaces de navegación */
       flex-direction: row; /* Los elementos de navegación estarán en una fila */
-      width: 100%; /* Usa todo el espacio disponible */
+      width: 80%; /* Usa todo el espacio disponible */
       align-items: flex-start; /* Alinea los elementos a la izquierda */
       padding: 0.1em 0em; /* Elimina el padding por defecto */
       margin: 0; /* Elimina márgenes adicionales */

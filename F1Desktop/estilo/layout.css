@@ -1,5 +1,4 @@
-
-/*Esto alinea el titulo h1 y el menu de navegacion*/
+/* Esto alinea el título h1 y el menú de navegación */
 header {
     display: flex;
     align-items: center; /* Centra verticalmente los elementos */
@@ -8,70 +7,67 @@ header {
     background-color: #4e1c18; /* Color de fondo del header */
     color: white; /* Color del texto */
   }
-
+  
   header h1 {
     font-size: 2em;
+    margin: 0; /* Elimina márgenes alrededor del título */
   }
   
   header h1 a {
     text-decoration: none;
+    color: white; /* Añadido para que el enlace se vea bien */
   }
-
-  /*Aplicar flex a la navegación.*/
+  
+  /* Aplicar flex a la navegación. */
   nav {
     display: flex;
     gap: 20px; /* Espacio entre los enlaces */
   }
-
-
-nav a {
-     color: #96271D; 
-     font-weight: bold;
-     padding: 5px 8px;
-}
-
-nav a:visited {
+  
+  nav a {
+    color: #96271D; 
+    font-weight: bold;
+    padding: 5px 8px;
+  }
+  
+  nav a:visited {
     columns: black;
     font-weight: normal;
-}
-
-nav a:hover {
+  }
+  
+  nav a:hover {
     background-color: #96271D;
     color: white;
     border-radius: 4px;
-
   }
-
-
-
-  @media (max-width: 700px) {
+  
+  @media (max-width: 768px) {
+    /* Cambiar el diseño del header para pantallas pequeñas */
     header {
-      display: flex; /* Usamos flexbox para el contenedor del título y el menú */
-      flex-direction: column; /* Coloca el título y el menú en columnas */
-      align-items: flex-start; /* Alinea los elementos a la izquierda */
-      width: 100%; /* Usa todo el ancho disponible */
+        flex-direction: column; /* Coloca los elementos (h1 y nav) en una columna */
+        align-items: center; /* Centra los elementos horizontalmente */
+        padding: 1em; /* Reduce el padding en pantallas pequeñas */
     }
-  
-    h1 {
-      margin: 0; /* Elimina márgenes alrededor del título */
-      padding: 1em 0.1em; /* Espaciado vertical alrededor del título */
-      font-weight: normal; /* Elimina la negrita */
+
+    /* Reducir el tamaño del h1 en móviles */
+    header h1 {
+        font-size: 1.5em; /* Hacer el título más pequeño en pantallas pequeñas */
     }
-  
+
+    /* Cambiar la navegación para pantallas pequeñas */
     nav {
-      display: flex; /* Usamos flexbox para los enlaces de navegación */
-      flex-direction: row; /* Los elementos de navegación estarán en una fila */
-      width: 80%; /* Usa todo el espacio disponible */
-      align-items: flex-start; /* Alinea los elementos a la izquierda */
-      padding: 0.1em 0em; /* Elimina el padding por defecto */
-      margin: 0; /* Elimina márgenes adicionales */
-      flex-wrap: wrap   ;
+        display: flex; /* Flexbox sigue habilitado */
+        flex-direction: row; /* Los enlaces de la navegación estarán en una fila */
+        width: 100%; /* Asegura que el menú ocupe todo el ancho disponible */
+        gap: 10px; /* Reduce el espacio entre los enlaces */
+        margin-top: 1em; /* Añade espacio entre el título y la navegación */
+        margin-left: 0;
+        justify-content: center; /* Centra los enlaces */
     }
-  
+
     nav a {
-      padding: 0.05em 0.05em; /* Espaciado alrededor de los enlaces */
-      text-decoration: none; /* Elimina el subrayado */
-      font-weight: normal; /* Elimina la negrita de los enlaces */
-      
+        padding: 10px 0; /* Espaciado mayor en los enlaces */
+        width: auto; /* Los enlaces no ocupan todo el ancho disponible */
+        text-align: center; /* Centra el texto de los enlaces */
     }
-  }
+}

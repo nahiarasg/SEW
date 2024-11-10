@@ -1,0 +1,70 @@
+
+/*Esto alinea el titulo h1 y el menu de navegacion*/
+header {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: space-between; /* Coloca el título a la izquierda y el menú a la derecha */
+    padding: 1em 2em; /* Espacio alrededor del header */
+    background-color: #4e1c18; /* Color de fondo del header */
+    color: white; /* Color del texto */
+  }
+
+  header h1 {
+    font-size: 2em;
+  }
+  
+  header h1 a {
+    text-decoration: none;
+  }
+
+  /*Aplicar flex a la navegación.*/
+  nav {
+    display: flex;
+    gap: 20px; /* Espacio entre los enlaces */
+  }
+
+
+nav a {
+     color: #96271D; 
+     font-weight: bold;
+     padding: 5px 8px;
+}
+
+nav a:hover {
+    background-color: #96271D;
+    color: white;
+    border-radius: 4px;
+
+  }
+
+  @media (max-width: 768px) {
+    header {
+      display: flex; /* Usamos flexbox para el contenedor del título y el menú */
+      flex-direction: column; /* Coloca el título y el menú en columnas */
+      align-items: flex-start; /* Alinea los elementos a la izquierda */
+      width: 100%; /* Usa todo el ancho disponible */
+    }
+  
+    h1 {
+      margin: 0; /* Elimina márgenes alrededor del título */
+      padding: 1em 0.1em; /* Espaciado vertical alrededor del título */
+      font-weight: normal; /* Elimina la negrita */
+    }
+  
+    nav {
+      display: flex; /* Usamos flexbox para los enlaces de navegación */
+      flex-direction: row; /* Los elementos de navegación estarán en una fila */
+      width: 100%; /* Usa todo el espacio disponible */
+      align-items: flex-start; /* Alinea los elementos a la izquierda */
+      padding: 0.5em 0em; /* Elimina el padding por defecto */
+      margin: 0; /* Elimina márgenes adicionales */
+      flex-wrap: wrap   ;
+    }
+  
+    nav a {
+      padding: 0.05em 0.05em; /* Espaciado alrededor de los enlaces */
+      text-decoration: none; /* Elimina el subrayado */
+      font-weight: normal; /* Elimina la negrita de los enlaces */
+      
+    }
+  }

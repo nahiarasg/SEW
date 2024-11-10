@@ -176,13 +176,18 @@ ul ul li::before {
   line-height: 1.5;
  }
 
- table {
-  table-layout: fixed;
-  width: 50%;
-  border-collapse: collapse;
-  border: 1px solid #a1a0a0;
-  color: #000000
- }
+ @media (max-width: 600px) {
+  table {
+    table-layout: fixed;
+    width: 50%;
+    border-collapse: collapse;
+    border: 1px solid #a1a0a0;
+    color: #000000 ;
+    width: 100%;
+    display: block;
+    overflow-x: auto;
+  }
+}
 
  td{
   padding: 10px;

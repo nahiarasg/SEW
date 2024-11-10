@@ -102,49 +102,74 @@ body h2 {
  }
 
  ul {
-  list-style: none;
-  padding-left: 0;
- }
+  list-style-type: none;  
+  margin-left: -0.1em; /* Ajusta el margen izquierdo para las listas no ordenadas */
+  padding-left: 0; /* Elimina el padding izquierdo por defecto */
+}
 
- ul li {
-  margin-left: 1.5em; /* Sangría para el texto */
-  text-indent: -1em; /* Sangría negativa para que el número quede alineado */
-  padding-left: 0.5em; /* Añade espacio para alinear el texto con el número */
- }
-
- ul li::before {
-  content: "•";
-    color: #96271D; /* color del icono */
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-right: 0.5em;
- }
-
-
- ol {
-  counter-reset: list-counter;
-  list-style: none;
-  padding-left: 1em;
- }
-
- ol li {
-  counter-increment: list-counter;
-  padding: 0.5em 0;
+ul li {
   position: relative;
-  font-size: 0.9em;
-  margin-left: 1.5em; /* Sangría para el texto */
-  text-indent: -1.5em; /* Sangría negativa para que el número quede alineado */
-  padding-left: 1em; /* Añade espacio para alinear el texto con el número */
- }
+  font-size: 1em;
+  margin-left: 1.5em; /* Espacio para el marcador (punto) */
+  padding-left: 1.5em; /* Espacio extra para alinear el texto */
+}
 
- ol li::before {
-  content: counter(list-counter) ".";
-  color: #96271D;
-  font-size: 0.9em;
+ul li::before {
+  content: "•";
+  color: #96271D; /* color del icono */
   font-weight: bold;
-  position: absolute;
-  left: -1em;
+  position: absolute; /* Posiciona el punto de forma absoluta */
+  left: 0; /* Alinea el punto al borde izquierdo del contenedor del li */
+  top: 0.2em; /* Ajuste vertical, puedes modificarlo si es necesario */
+}
+
+
+ol {
+  counter-reset: list-counter; /* Reinicia el contador para cada lista */
+  list-style: none; /* Elimina el estilo de lista predeterminado */
+  margin-left: 1.5em; /* Ajusta el margen izquierdo para alinearlo con ul */
+  padding-left: 0; /* Elimina el padding izquierdo por defecto */
+}
+
+/* Estilo para cada ítem en una lista ordenada */
+ol li {
+  counter-increment: list-counter; /* Incrementa el contador para cada ítem */
+  position: relative; /* Necesario para el posicionamiento del número */
+  padding-left: 1.5em; /* Espacio para el número, lo ajustamos más pequeño */
+  margin-left: 0.2em; /* Margen izquierdo reducido para que no quede tan alejado */
+}
+
+/* Estilo para el número en la lista ordenada */
+ol li::before {
+  content: counter(list-counter) "."; /* Inserta el número antes del texto */
+  color: #96271D; /* Color del número */
+  font-size: 0.9em; /* Tamaño de fuente del número */
+  font-weight: bold; /* Peso del número */
+  position: absolute; /* Posición absoluta para colocar el número */
+  left: -0.5em; /* Mueve el número un poco más a la izquierda */
+  top: 0; /* Alineación vertical del número */
+}
+
+ul ul {
+  list-style-type: none;  
+  margin-left: -0.1em; /* Ajusta el margen izquierdo para las listas no ordenadas */
+  padding-left: 0; /* Elimina el padding izquierdo por defecto */
+}
+
+ul ul li  {
+  position: relative;
+  font-size: 1em;
+  margin-left: 1.5em; /* Espacio para el marcador (punto) */
+  padding-left: 1.5em; /* Espacio extra para alinear el texto */
+}
+
+ul ul li::before {
+  content: "-";
+  color: #96271D; /* color del icono */
+  font-weight: bold;
+  position: absolute; /* Posiciona el punto de forma absoluta */
+  left: 0; /* Alinea el punto al borde izquierdo del contenedor del li */
+  top: 0.2em; /* Ajuste vertical, puedes modificarlo si es necesario */
 }
 
  dt {

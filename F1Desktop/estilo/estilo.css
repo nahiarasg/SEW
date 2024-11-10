@@ -5,7 +5,7 @@
  COLORES
  - rojo: #F81D06
  - blanco: #F8EEEA
- - terracota: #A52A20
+ - terracota: #96271D
  - rosado: #EC8C86
  - terracota oscuro: #791E16
 
@@ -14,13 +14,20 @@
  - rosado-negro --> 
  - blanco-negro --> NEGRO COLOR LETRA; BLANCO COLOR FONDO.
  - blanco-terracotaOscuro --> TERRACOTA OSCURO LETRA; 
+
+
+CHULETA DE USO: 
+- Fondo: #FEF7F7
+- Links: #96271D
  */
+
+
 
  /* ESPECIFIDAD: 001 */
  body{
     font-family: "Calibri", sans-serif; 
     color: #000; 
-    background-color: #fff; 
+    background-color: #fef7f7; 
  }
 
  body section {
@@ -32,14 +39,24 @@
  body header {
     font-family: "Calibri", sans-serif;
     color: #000;
-    background-color: #fff;
+    background-color: #fef7f7;
  }
 
   /* ESPECIFIDAD: 002 */
   body header h1 {
    font-family: "Candara", sans-serif;
-   color: #000;
-   /* Hereda el color de fondo de header */
+   border-bottom: 3px solid #000;
+   padding-bottom: 5px;
+   display: inline-block;
+  /* Hereda el color de fondo de header */
+}
+
+body h2 {
+  color: #000;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  font-weight: bold;
 }
 
  body header h1 a {
@@ -58,14 +75,14 @@
 
  /* ESPECIFIDAD: 002 */
  a {
-    color: #a52a20; 
+    color: #96271D; 
     /* Hereda el color de fondo de header*/
  }
 
 
 
  a:visited {
-    color: #000;
+    color: #4e1c18;
  }
 
   a:hover {
@@ -80,7 +97,7 @@
 
 
  dt {
-   color: #a52a20;
+   color: #96271D;
    font-weight: bold;
  }
 
@@ -104,7 +121,8 @@
   table-layout: fixed;
   width: 50%;
   border-collapse: collapse;
-  border: 1px solid gray;
+  border: 1px solid #a1a0a0;
+  color: #000000
  }
 
  td{
@@ -117,7 +135,7 @@
  }
 
  tr:nth-child(2n+1){
-  background-color: lightgray;
+  background-color: #d3d3d3;
  }
 
  tr:nth-child(2n){

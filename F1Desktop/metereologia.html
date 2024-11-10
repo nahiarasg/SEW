@@ -11,6 +11,7 @@
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
     
     <link rel = "icon" href = "multimedia/images/favicon.ico" />
 
@@ -40,21 +41,26 @@
         Estás en: <a href="index.html" title="Inicio" >Inicio</a> | Metereologia
     </p>
 
-    <h2>Metereologia</h2>
-    
-    <h3>Información del país</Param></h3>
-    <script>
-        document.write("<p>" + pais.getPais() + " </p>");
-    </script>
 
-    <h3>Datos generales del país</h3>
-    <script>
-        document.write("<p>" + pais.getDatosPais() + "</p>");
-    </script>
-    <h3>Coordenadas de la línea de meta</h3>
-    <script>
-        pais.getCoordenadasMeta();
-    </script>
+    <section>
+        
+    <h2>Metereologia</h2>
+
+    <h3>Información del país</Param></h3>
+        <script>
+            document.write("<p>" + pais.getPais() + " </p>");
+        </script>
+
+        <h3>Datos generales del país</h3>
+        <script>
+            document.write("<p>" + pais.getDatosPais() + "</p>");
+        </script>
+        <h3>Coordenadas de la línea de meta</h3>
+        <script>
+            pais.getCoordenadasMeta();
+        </script>
+
+    </section>
 
     
     

@@ -10,6 +10,7 @@
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
 
     <title>Piloto</title>
     <link rel = "icon" href = "multimedia/images/favicon.ico" />
@@ -35,6 +36,7 @@
 
     </header>
 
+    
     <p>
         Estás en <a href="index.html" title="Inicio" >Inicio</a> | Piloto
     </p>
@@ -191,31 +193,32 @@
     <p>
         Se muestra en la siguiente tabla un resumen con los resultados del piloto la pasada temporada.
     </p>
+ 
     <table>
         <caption>Resultados temporada 2023</caption>
-        
-
         <!-- Primera fila de la tabla: (encabezados) -->
-         <tr>
-            <td>Piloto/Estadísticas</td>
-            <th scope = col id = "Puntos" >Puntos</th>
-            <th scope = col id = "Posición" >Posición final</th>
-            <th scope = col id = "Poles" >Poles Position</th>
-            <th scope = col id = "Victorias" >Victorias</th>
-            <th scope = col id = "Podios" >Podios</th>
+        <tr>
+            <th>Piloto/Estadísticas</th>
+            <th scope="col" id="Puntos" >Puntos</th>
+            <th scope="col" id="Posición" >Posición final</th>
+            <th scope="col" id="Poles" >Poles Position</th>
+            <th scope="col" id="Victorias" >Victorias</th>
+            <th scope="col" id="Podios" >Podios</th>
         </tr>
 
         <!-- Segunda fila de la tabla-->
-         <tr>
-            <th scope = rowgroup id = "Piloto" >Checo Pérez</th>
-            <td headers = "Puntos" >285</td>
-            <td headers = "Posición" >2º</td>
-            <td headers = "Poles" >2</td>
-            <td headers = "Victorias" >2</td>
-            <td headers = "Podios" >9</td>
-         </tr>
-
+        <tr>
+            <th scope="row" id="Piloto" >Checo Pérez</th>
+            <td headers="Puntos" data-label="Puntos">285</td>
+            <td headers="Posición" data-label="Posición final">2º</td>
+            <td headers="Poles" data-label="Poles Position">2</td>
+            <td headers="Victorias" data-label="Victorias">2</td>
+            <td headers="Podios" data-label="Podios">9</td>
+        </tr>
     </table>
+
+</body>
+</html>
 
     <p>En el siguiente vídeo se resumen los mejores momentos de Checo Pérez en el año 2023.</p>
     <video controls preload="auto">

@@ -58,10 +58,11 @@ header {
     nav {
         display: flex; /* Flexbox sigue habilitado */
         flex-direction: row; /* Los enlaces de la navegación estarán en una fila */
+        flex-wrap: wrap;
         width: 100%; /* Asegura que el menú ocupe todo el ancho disponible */
         gap: 10px; /* Reduce el espacio entre los enlaces */
         margin-top: 1em; /* Añade espacio entre el título y la navegación */
-        margin-left: 0;
+        margin-left: 0.01;
         justify-content: center; /* Centra los enlaces */
     }
 

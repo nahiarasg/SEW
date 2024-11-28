@@ -17,7 +17,7 @@ section:has(article) {
   display: flex;
   flex-wrap: wrap; /* Hace que los elementos se envuelvan en varias filas */
   gap: 0.625em; /* Espacio entre los elementos */
-  padding: 1.25em;
+ /* padding: 1.25em; */
   max-width: 90%;
   margin: auto;
   justify-content: center;

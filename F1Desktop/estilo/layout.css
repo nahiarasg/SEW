@@ -87,11 +87,11 @@ article h3 {
     justify-content: center;
   }
 
-  /* Garantiza mínimo 3 columnas incluso en pantallas pequeñas */
+  /* Garantiza 4 columnas */
   article {
-    flex: 1 1 calc(17% - 0.625em);
-    width: calc(17% - 0.625em);
-    margin: 0.25em;
+    flex: 1 1 calc(25% - 0.625em); /* Calculamos el tamaño para 4 columnas */
+    margin: 0.25em; /* Espacio entre las tarjetas */
+    box-sizing: border-box; /* Asegura que el margin no afecte al ancho calculado */
   }
 
 

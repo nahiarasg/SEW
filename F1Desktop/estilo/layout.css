@@ -89,8 +89,8 @@ article h3 {
 
   /* Garantiza mínimo 3 columnas incluso en pantallas pequeñas */
   article {
-    flex: 1 1 calc(25% - 0.625em);
-    width: calc(30% - 0.625em);
+    flex: 1 1 calc(17% - 0.625em);
+    width: calc(17% - 0.625em);
     margin: 0.25em;
   }
 

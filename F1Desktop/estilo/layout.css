@@ -89,7 +89,8 @@ article h3 {
 
   /* Garantiza 4 columnas */
   article {
-    flex: 1 1 calc(18% - 0.625em); /* Calculamos el tamaño para 4 columnas */
+    flex: 1 1 calc(20% - 0.625em); /* Calculamos el tamaño para 4 columnas */
+    max-width: calc(20% - 0.625em);
     margin: 0.25em; /* Espacio entre las tarjetas */
     box-sizing: border-box; /* Asegura que el margin no afecte al ancho calculado */
   }

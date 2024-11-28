@@ -1,6 +1,10 @@
 
  /* Nahiara Sánchez García y UO295645*/
 
+* {
+  box-sizing: border-box;  /* Asegura que el padding y los márgenes no se sumen al ancho de los elementos */
+  }
+
 /* ESPECIFICIDAD: 001*/
 body {
   width: 100%;

@@ -33,7 +33,7 @@ body{
 /* ESPECIFICIDAD: 002 */
 body section {
   padding: 1.6em;
-  border-bottom: 2px solid lightgray;
+ /* border-bottom: 2px solid lightgray; */
 }
 
 /* ESPECIFICIDAD: 002*/

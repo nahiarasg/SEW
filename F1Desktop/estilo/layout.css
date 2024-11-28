@@ -109,6 +109,9 @@ nav a {
   padding: 0.3em 0.5em;
 }
 
+nav a:last-child {
+  margin-right: 0; /* Elimina margen en el último elemento */
+}
 
 
 /* ESPECIFICIDAD: 012 */

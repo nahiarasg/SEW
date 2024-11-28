@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniovi:circuito xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:uniovi="http://www.uniovi.es"
+                 xsi:schemaLocation="http://www.uniovi.es circuito.xsd"
+                 nombre="SPA-FRANCORCHAMPS">
+
+
+    <uniovi:nombre>SPA-FRANCORCHAMPS</uniovi:nombre>
+    <uniovi:longitudCircuito unidades="km">7.004</uniovi:longitudCircuito>
+    <uniovi:anchura unidades="m">8</uniovi:anchura>
+    <uniovi:fecha>2024-06-28</uniovi:fecha>
+    <uniovi:hora>15:00</uniovi:hora>
+    <uniovi:vueltas>44</uniovi:vueltas>
+    <uniovi:localidad>Stavelot</uniovi:localidad>
+    <uniovi:pais>Bélgica</uniovi:pais>
+
+    <uniovi:referencias>
+        <uniovi:link linkName="Circuito Spa-Francorchamps">
+            https://www.circuitosdecarreras.com/belgica/circuito-spa-francorchamps/</uniovi:link>
+        <uniovi:link linkName="Dazn - Circuito Spa-Francorchamps">
+            https://www.dazn.com/es-ES/news/motor/circuito-spa-francorchamps-donde-esta-como-es-caracteristicas-como-llegar-fotos-escenario-gp-belgica-mundial-f1/iruciknj8sid1e37zg80cgdec</uniovi:link>
+        <uniovi:link linkName="Wikipedia - Circuito Spa-Francorchamps">
+            https://es.wikipedia.org/wiki/Circuito_de_Spa-Francorchamps</uniovi:link>
+    </uniovi:referencias>
+
+    <uniovi:fototeca>
+        <uniovi:imagen formato="jpg" descripcion="Pista del circuito">multimedia/images/pistaCircuito.jpg</uniovi:imagen>
+        <uniovi:imagen formato="jpg" descripcion="Salida del circuito">multimedia/images/salidaCircuito.jpg</uniovi:imagen>
+        <uniovi:imagen formato="jpg" descripcion="Carrera en el circuito">multimedia/images/carreraCircuito.jpg</uniovi:imagen>
+    </uniovi:fototeca>
+
+    <uniovi:galeria>
+        <uniovi:video formato="mp4" descripcion="Video del circuito">multimedia/videos/circuito.mp4</uniovi:video>
+    </uniovi:galeria>
+
+    <uniovi:coordenadas>
+        <uniovi:longitud>5.96</uniovi:longitud>
+        <uniovi:latitud>50.44</uniovi:latitud>
+        <uniovi:altitud unidades="m">410.71</uniovi:altitud>
+    </uniovi:coordenadas>
+
+    <uniovi:trazosCircuito>
+        <uniovi:sector id="1">
+            <uniovi:distanciaTramo unidades = "m">294.23</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.967075555216246</uniovi:longitud>
+                <uniovi:latitud>50.44195911018055</uniovi:latitud>
+                <uniovi:altitud unidades="m">410.71</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>1</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="2">
+            <uniovi:distanciaTramo unidades="m">18.97</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.964968657789322</uniovi:longitud>
+                <uniovi:latitud>50.4442804712973</uniovi:latitud>
+                <uniovi:altitud unidades="m">409.23</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>1</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="3">
+            <uniovi:distanciaTramo unidades="m">17.02</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.963342055038769</uniovi:longitud>
+                <uniovi:latitud>50.44607575122644</uniovi:latitud>
+                <uniovi:altitud unidades="m">409.02</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>1</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="4">
+            <uniovi:distanciaTramo unidades="m">13.56</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.963475630413411</uniovi:longitud>
+                <uniovi:latitud>50.44624469387168</uniovi:latitud>
+                <uniovi:altitud unidades="m">407.99</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>1</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="5">
+            <uniovi:distanciaTramo unidades="m">12.98</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.965744182488082</uniovi:longitud>
+                <uniovi:latitud>50.4455854614964</uniovi:latitud>
+                <uniovi:altitud unidades="m">407.15</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>1</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="6">
+            <uniovi:distanciaTramo unidades="m">33.94</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.966860028543377</uniovi:longitud>
+                <uniovi:latitud>50.44510169183539</uniovi:latitud>
+                <uniovi:altitud unidades="m">407.15</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>1</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="7">
+            <uniovi:distanciaTramo unidades="m">12.7</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.967566741884964</uniovi:longitud>
+                <uniovi:latitud>50.44468402042162</uniovi:latitud>
+                <uniovi:altitud unidades="m">406.11</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>1</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="8">
+            <uniovi:distanciaTramo unidades="m">12.54</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.970402777494918</uniovi:longitud>
+                <uniovi:latitud>50.44254778423586</uniovi:latitud>
+                <uniovi:altitud unidades="m">406.07</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>1</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="9">
+            <uniovi:distanciaTramo unidades="m">224.58</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.971468915433151</uniovi:longitud>
+                <uniovi:latitud>50.44210024337618</uniovi:latitud>
+                <uniovi:altitud unidades="m">416.47</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>1</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="10">
+            <uniovi:distanciaTramo unidades="m">56.26</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.971902575596491</uniovi:longitud>
+                <uniovi:latitud>50.44153383973529</uniovi:latitud>
+                <uniovi:altitud unidades="m">416.47</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>1</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="11">
+            <uniovi:distanciaTramo unidades="m">229.3</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.972039366224395</uniovi:longitud>
+                <uniovi:latitud>50.44096511523191</uniovi:latitud>
+                <uniovi:altitud unidades="m">414.16</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>1</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="12">
+            <uniovi:distanciaTramo unidades="m">57.49</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.97219412547477</uniovi:longitud>
+                <uniovi:latitud>50.44067005150603</uniovi:latitud>
+                <uniovi:altitud unidades="m">415.55</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>1</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="13">
+            <uniovi:distanciaTramo unidades="m">202.84</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.974259209154768</uniovi:longitud>
+                <uniovi:latitud>50.43867515888307</uniovi:latitud>
+                <uniovi:altitud unidades="m">397.05</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>1</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="14">
+            <uniovi:distanciaTramo unidades="m">78.88</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.974554271861576</uniovi:longitud>
+                <uniovi:latitud>50.43826866282627</uniovi:latitud>
+                <uniovi:altitud unidades="m">383.41</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>1</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="15">
+            <uniovi:distanciaTramo unidades="m">83.16</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.977570554565562</uniovi:longitud>
+                <uniovi:latitud>50.43155857802816</uniovi:latitud>
+                <uniovi:altitud unidades="m">376.38</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>1</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="16">
+            <uniovi:distanciaTramo unidades="m">169.98</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.977487163801907</uniovi:longitud>
+                <uniovi:latitud>50.43130200200452</uniovi:latitud>
+                <uniovi:altitud unidades="m">375.74</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>1</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="17">
+            <uniovi:distanciaTramo unidades="m">71.04</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.977258823195603</uniovi:longitud>
+                <uniovi:latitud>50.43114093370707</uniovi:latitud>
+                <uniovi:altitud unidades="m">375.74</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>1</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="18">
+            <uniovi:distanciaTramo unidades="m">136.13</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.976798224852377</uniovi:longitud>
+                <uniovi:latitud>50.43094919522218</uniovi:latitud>
+                <uniovi:altitud unidades="m">367.72</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>1</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="19">
+            <uniovi:distanciaTramo unidades="m">68.37</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.97666419522654</uniovi:longitud>
+                <uniovi:latitud>50.43066500941418</uniovi:latitud>
+                <uniovi:altitud unidades="m">367.72</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>1</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="20">
+            <uniovi:distanciaTramo unidades="m">71.03</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.977024516152696</uniovi:longitud>
+                <uniovi:latitud>50.42975535669468</uniovi:latitud>
+                <uniovi:altitud unidades="m">364.38</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>1</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="22">
+            <uniovi:distanciaTramo unidades="m">57.2</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.976969797768533</uniovi:longitud>
+                <uniovi:latitud>50.4297886</uniovi:latitud>
+                <uniovi:altitud unidades="m">364.38</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="23">
+            <uniovi:distanciaTramo unidades="m">68.37</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.976793258001127</uniovi:longitud>
+                <uniovi:latitud>50.42929859905469</uniovi:latitud>
+                <uniovi:altitud unidades="m">365.55</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="24">
+            <uniovi:distanciaTramo unidades="m">31.44</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.973160779008269</uniovi:longitud>
+                <uniovi:latitud>50.42769511235448</uniovi:latitud>
+                <uniovi:altitud unidades="m">368.43</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="25">
+            <uniovi:distanciaTramo unidades="m">195.58</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.972589668686035</uniovi:longitud>
+                <uniovi:latitud>50.42769558822935</uniovi:latitud>
+                <uniovi:altitud unidades="m">371.49</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="26">
+            <uniovi:distanciaTramo unidades="m">44.11</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.972254898166249</uniovi:longitud>
+                <uniovi:latitud>50.42790894494969</uniovi:latitud>
+                <uniovi:altitud unidades="m">371.50</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="27">
+            <uniovi:distanciaTramo unidades="m">35.25</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.972192804758814</uniovi:longitud>
+                <uniovi:latitud>50.4282077698665</uniovi:latitud>
+                <uniovi:altitud unidades="m">375.05</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="28">
+            <uniovi:distanciaTramo unidades="m">91.75</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.972411626196143</uniovi:longitud>
+                <uniovi:latitud>50.42845677091712</uniovi:latitud>
+                <uniovi:altitud unidades="m">375.88</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="29">
+            <uniovi:distanciaTramo unidades="m">51.19</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.974115353155995</uniovi:longitud>
+                <uniovi:latitud>50.42913961008287</uniovi:latitud>
+                <uniovi:altitud unidades="m">376.71</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+        
+        <uniovi:sector id="30">
+            <uniovi:distanciaTramo unidades="m">36.9</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.974280960008587</uniovi:longitud>
+                <uniovi:latitud>50.42930619716212</uniovi:latitud>
+                <uniovi:altitud unidades="m">376.71</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="31">
+            <uniovi:distanciaTramo unidades="m">336.56</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.974351232526591</uniovi:longitud>
+                <uniovi:latitud>50.4294988135367</uniovi:latitud>
+                <uniovi:altitud unidades="m">374.56</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="32">
+            <uniovi:distanciaTramo unidades="m">69.12</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.973768355498368</uniovi:longitud>
+                <uniovi:latitud>50.43059836535893</uniovi:latitud>
+                <uniovi:altitud unidades="m">374.56</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="33">
+            <uniovi:distanciaTramo unidades="m">70.6</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.97352318188082</uniovi:longitud>
+                <uniovi:latitud>50.43114617329323</uniovi:latitud>
+                <uniovi:altitud unidades="m">378.93</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="34">
+            <uniovi:distanciaTramo unidades="m">109.14</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.9728401134519</uniovi:longitud>
+                <uniovi:latitud>50.43355042981585</uniovi:latitud>
+                <uniovi:altitud unidades="m">385.25</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="35">
+            <uniovi:distanciaTramo unidades="m">53.4</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.972584334788371</uniovi:longitud>
+                <uniovi:latitud>50.4338954170023</uniovi:latitud>
+                <uniovi:altitud unidades="m">385.25</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="36">
+            <uniovi:distanciaTramo unidades="m">45.07</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.972046564856646</uniovi:longitud>
+                <uniovi:latitud>50.43415243893567</uniovi:latitud>
+                <uniovi:altitud unidades="m">393.87</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+        
+        <uniovi:sector id="37">
+            <uniovi:distanciaTramo unidades="m">271.71</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.970538675726546</uniovi:longitud>
+                <uniovi:latitud>50.43424556773661</uniovi:latitud>
+                <uniovi:altitud unidades="m">398.42</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="38">
+            <uniovi:distanciaTramo unidades="m">60.93</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.969598392149067</uniovi:longitud>
+                <uniovi:latitud>50.43405540537129</uniovi:latitud>
+                <uniovi:altitud unidades="m">399.91</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="39">
+            <uniovi:distanciaTramo unidades="m">131.49</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.968916639580309</uniovi:longitud>
+                <uniovi:latitud>50.43359402364824</uniovi:latitud>
+                <uniovi:altitud unidades="m">419.78</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>    
+        
+        <uniovi:sector id="40">
+            <uniovi:distanciaTramo unidades="m">20.08</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.967118517923977</uniovi:longitud>
+                <uniovi:latitud>50.43072970515546</uniovi:latitud>
+                <uniovi:altitud unidades="m">423.81</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+        
+        <uniovi:sector id="41">
+            <uniovi:distanciaTramo unidades="m">21.17</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.966809560825133</uniovi:longitud>
+                <uniovi:latitud>50.43048777525629</uniovi:latitud>
+                <uniovi:altitud unidades="m">431.43</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="42">
+            <uniovi:distanciaTramo unidades="m">142.03</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.966138199941106</uniovi:longitud>
+                <uniovi:latitud>50.43036859073364</uniovi:latitud>
+                <uniovi:altitud unidades="m">432.33</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="43">
+            <uniovi:distanciaTramo unidades="m">34.82</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.965537656891538</uniovi:longitud>
+                <uniovi:latitud>50.43052053675555</uniovi:latitud>
+                <uniovi:altitud unidades="m">435.38</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+        
+        <uniovi:sector id="44">
+            <uniovi:distanciaTramo unidades="m">32.42</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.964966639825347</uniovi:longitud>
+                <uniovi:latitud>50.43070819369905</uniovi:latitud>
+                <uniovi:altitud unidades="m">445.10</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="45">
+            <uniovi:distanciaTramo unidades="m">35.32</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.964485746516452</uniovi:longitud>
+                <uniovi:latitud>50.43070230246639</uniovi:latitud>
+                <uniovi:altitud unidades="m">448.07</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="46">
+            <uniovi:distanciaTramo unidades="m">41.56</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.963964532715213</uniovi:longitud>
+                <uniovi:latitud>50.43051376543482</uniovi:latitud>
+                <uniovi:altitud unidades="m">449.67</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="47">
+            <uniovi:distanciaTramo unidades="m">314.27</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.962491539803009</uniovi:longitud>
+                <uniovi:latitud>50.42899294546412</uniovi:latitud>
+                <uniovi:altitud unidades="m">450.90</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="48">
+            <uniovi:distanciaTramo unidades="m">21.71</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.962204881182829</uniovi:longitud>
+                <uniovi:latitud>50.42879479917662</uniovi:latitud>
+                <uniovi:altitud unidades="m">467.09</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="49">
+            <uniovi:distanciaTramo unidades="m">30.85</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.961656291459141</uniovi:longitud>
+                <uniovi:latitud>50.42875602477733</uniovi:latitud>
+                <uniovi:altitud unidades="m">467.70</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+            
+        <uniovi:sector id="50">
+            <uniovi:distanciaTramo unidades="m">104.74</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.959977680730284</uniovi:longitud>
+                <uniovi:latitud>50.42954297873113</uniovi:latitud>
+                <uniovi:altitud unidades="m">468.09</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+        
+        <uniovi:sector id="51">
+            <uniovi:distanciaTramo unidades="m">33.91</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.95959541876746</uniovi:longitud>
+                <uniovi:latitud>50.43000710775777</uniovi:latitud>
+                <uniovi:altitud unidades="m">466.41</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>  
+     
+        <uniovi:sector id="52">
+            <uniovi:distanciaTramo unidades="m">40.04</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.959620199721569</uniovi:longitud>
+                <uniovi:latitud>50.43041030815417</uniovi:latitud>
+                <uniovi:altitud unidades="m">464.90</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+            
+        <uniovi:sector id="53">
+            <uniovi:distanciaTramo unidades="m">24.44</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.960286246875599</uniovi:longitud>
+                <uniovi:latitud>50.43144875054751</uniovi:latitud>
+                <uniovi:altitud unidades="m">463.15</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>2</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="54">
+            <uniovi:distanciaTramo unidades="m">26.64</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.96088018138931</uniovi:longitud>
+                <uniovi:latitud>50.43193360736637</uniovi:latitud>
+                <uniovi:altitud unidades="m">463.20</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>3</uniovi:numSector>
+        </uniovi:sector>
+        
+        <uniovi:sector id="55">
+            <uniovi:distanciaTramo unidades="m">773.65</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.962294102032397</uniovi:longitud>
+                <uniovi:latitud>50.43277467131821</uniovi:latitud>
+                <uniovi:altitud unidades="m">463.13</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>3</uniovi:numSector>
+        </uniovi:sector>
+           
+        <uniovi:sector id="56">
+            <uniovi:distanciaTramo unidades="m">50.46</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.963113064283972</uniovi:longitud>
+                <uniovi:latitud>50.43312137465082</uniovi:latitud>
+                <uniovi:altitud unidades="m">426.23</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>3</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="57">
+            <uniovi:distanciaTramo unidades="m">261.48</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.965206098090143</uniovi:longitud>
+                <uniovi:latitud>50.43382642903866</uniovi:latitud>
+                <uniovi:altitud unidades="m">425.80</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>3</uniovi:numSector>
+        </uniovi:sector>
+        
+        <uniovi:sector id="58">
+            <uniovi:distanciaTramo unidades="m">25.07</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.966182206763493</uniovi:longitud>
+                <uniovi:latitud>50.43425161657977</uniovi:latitud>
+                <uniovi:altitud unidades="m">413.18</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>3</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="59">
+            <uniovi:distanciaTramo unidades="m">61.26</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.966859094291202</uniovi:longitud>
+                <uniovi:latitud>50.43479248902405</uniovi:latitud>
+                <uniovi:altitud unidades="m">411.54</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>3</uniovi:numSector>
+        </uniovi:sector>
+        
+        <uniovi:sector id="60">
+            <uniovi:distanciaTramo unidades="m">69.01</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.968023066180974</uniovi:longitud>
+                <uniovi:latitud>50.43646382926381</uniovi:latitud>
+                <uniovi:altitud unidades="m">402.80</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>3</uniovi:numSector>
+        </uniovi:sector>
+           
+        <uniovi:sector id="61">
+            <uniovi:distanciaTramo unidades="m">88.56</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.968079780050974</uniovi:longitud>
+                <uniovi:latitud>50.43698968170345</uniovi:latitud>
+                <uniovi:altitud unidades="m">393.36</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>3</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="62">
+            <uniovi:distanciaTramo unidades="m">307.72</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.966942559080282</uniovi:longitud>
+                <uniovi:latitud>50.43891254255553</uniovi:latitud>
+                <uniovi:altitud unidades="m">388.79</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>3</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="63">
+            <uniovi:distanciaTramo unidades="m">68.03</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.966707137090479</uniovi:longitud>
+                <uniovi:latitud>50.43940584486678</uniovi:latitud>
+                <uniovi:altitud unidades="m">407.66</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>3</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="64">
+            <uniovi:distanciaTramo unidades="m">93.38</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.966368963138098</uniovi:longitud>
+                <uniovi:latitud>50.4414650417037</uniovi:latitud>
+                <uniovi:altitud unidades="m">405.51</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>3</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="65">
+            <uniovi:distanciaTramo unidades="m">174.39</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.966605037697519</uniovi:longitud>
+                <uniovi:latitud>50.44157651241752</uniovi:latitud>
+                <uniovi:altitud unidades="m">416.27</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>3</uniovi:numSector>
+        </uniovi:sector>
+     
+        <uniovi:sector id="66">
+            <uniovi:distanciaTramo unidades="m">22.05</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.967073655042887</uniovi:longitud>
+                <uniovi:latitud>50.44153495553843</uniovi:latitud>
+                <uniovi:altitud unidades="m">419.79</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>3</uniovi:numSector>
+        </uniovi:sector>
+      
+        <uniovi:sector id="67">
+            <uniovi:distanciaTramo unidades="m">113.62</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.967264017182279</uniovi:longitud>
+                <uniovi:latitud>50.44168310050889</uniovi:latitud>
+                <uniovi:altitud unidades="m">419.79</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>3</uniovi:numSector>
+        </uniovi:sector>
+    
+        <uniovi:sector id="68">
+            <uniovi:distanciaTramo unidades="m">122.81</uniovi:distanciaTramo>
+            <uniovi:coordenadas>
+                <uniovi:longitud>5.967075555216246</uniovi:longitud>
+                <uniovi:latitud>50.44195911018055</uniovi:latitud>
+                <uniovi:altitud unidades="m">410.16</uniovi:altitud>
+            </uniovi:coordenadas>
+            <uniovi:numSector>3</uniovi:numSector>
+        </uniovi:sector>
+
+    </uniovi:trazosCircuito>
+
+
+</uniovi:circuito>

@@ -37,7 +37,7 @@ section:has(article) h3  {
 article {
   width: calc(17% - 0.625em); /* Ajusta el ancho para hacer las cartas un poco más grandes (20% de la fila, menos el espacio para márgenes) */
   height: 17.5em; /* Aumenta la altura para que las cartas sean más grandes */
-  margin: 5em; /* Espacio entre las cartas */
+  margin: 1.7em; /* Espacio entre las cartas */
   transform: scale(1);
   order: 1; /* Asegura que las cartas estén debajo del título */
 }

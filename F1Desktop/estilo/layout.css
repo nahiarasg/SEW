@@ -74,6 +74,29 @@ article h3 {
 
 }
 
+/* Adaptabilidad con media queries */
+@media (max-width: 1440px) {
+
+  section:has(article) {
+    display: flex;
+    flex-wrap: wrap; /* Hace que los elementos se envuelvan en varias filas */
+    gap: 0.625em; /* Espacio entre los elementos */
+    padding: 1em;
+    max-width: 100%;
+    margin: auto;
+    justify-content: center;
+  }
+
+  /* Garantiza mínimo 3 columnas incluso en pantallas pequeñas */
+  article {
+    flex: 1 1 calc(25% - 0.625em);
+    width: calc(30% - 0.625em);
+    margin: 0.25em;
+  }
+
+
+}
+
 
 /*******************************************************************************************/
 

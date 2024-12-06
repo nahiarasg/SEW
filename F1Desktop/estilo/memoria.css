@@ -94,7 +94,7 @@ article[data-state=revealed] {
       gap: 0.625em; /* Espacio entre los elementos */
       height: 5em; /* Aumenta la altura para que las cartas sean más grandes */
       padding: 1em;
-      max-width: 90%;
+      max-width: 60%;
       margin: auto;
       justify-content: center;
     }

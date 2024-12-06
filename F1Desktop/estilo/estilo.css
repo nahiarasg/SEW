@@ -207,7 +207,6 @@ section nav a:active {
 /* ESPECIFICIDAD: 012*/
 header + p:has(a) {
   font-size: smaller;
-  padding: 0em 2.6em ;
 }
 
 

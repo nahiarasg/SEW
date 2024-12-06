@@ -151,31 +151,6 @@ main.unload div {
 
 @media (max-width: 480px) { /* Para móviles pequeños como iPhone 5 */
     main {
-        width: 80%; 
-        height: 60%; 
-        gap: 3% 2%; /* Reducimos los espacios */
-    }
-
-    div {
-        border-width: 2px; /* Borde más delgado */
-    }
-
-    h3 {
-        font-size: 1rem; /* Texto del título más pequeño */
-    }
-
-    main p {
-        font-size: 0.8rem; /* Texto más pequeño para ajustar */
-    }
-
-    button {
-        font-size: 0.7rem; /* Botones más pequeños */
-        padding: 0.3em 0.8em; /* Espaciado reducido */
-    }
-}
-
-@media (max-width: 320px) { /* Pantallas de 320px de ancho, como el iPhone SE / iPhone 5 */
-    main {
         width: 100%; /* Ocupa todo el ancho disponible */
         max-width: 320px; /* Limita el tamaño máximo de pantalla */
         height: auto; /* Ajusta la altura dinámicamente */
@@ -199,4 +174,3 @@ main.unload div {
         padding: 0.4em 0.8em; /* Espaciado reducido */
     }
 }
-

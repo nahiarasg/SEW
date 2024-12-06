@@ -112,3 +112,41 @@ main.unload div {
     animation-duration: 0.1s;
     animation-fill-mode: forwards;
 }
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) { /* Tablets */
+    main {
+        width: 80%; /* Reduce the overall size */
+        height: auto; /* Let height adjust dynamically */
+        gap: 3% 2%; /* Smaller gaps */
+    }
+
+    div {
+        border-width: 3px; /* Thinner borders */
+    }
+
+    h3, main p {
+        font-size: 1rem; /* Adjust text size */
+    }
+}
+
+@media (max-width: 480px) { /* Mobile phones */
+    main {
+        width: 90%; /* Further reduce width */
+        height: auto; /* Dynamically adjust */
+        gap: 2% 1%; /* Minimal gaps */
+    }
+
+    div {
+        border-width: 2px; /* Thin borders for small screens */
+    }
+
+    h3, main p {
+        font-size: 0.9rem; /* Smaller text size */
+    }
+
+    button {
+        font-size: 0.8rem; /* Scale down button text */
+    }
+}

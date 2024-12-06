@@ -1,0 +1,114 @@
+
+/* ESPECIFICIDAD: 001*/
+main {
+    width: 60%;
+    height: 50%;
+    margin: auto;
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 0.5fr 0.2fr;
+    gap: 5% 3%;
+    align-items: center;
+}
+
+/* ESPECIFICIDAD: 001*/
+h3 {
+    grid-row: 1;
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+/* ESPECIFICIDAD: 001*/
+div {
+    grid-row: 2;
+    background-color: #0007;
+    border: 5px solid black;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+/* ESPECIFICIDAD: 011*/
+button:first-of-type {
+    grid-row: 3;
+    grid-column: 2 / span 1;
+    border-radius: 0.5em;
+}
+
+/* ESPECIFICIDAD: 011*/
+button:nth-of-type(2) {
+    grid-row: 3;
+    grid-column: 3 / span 1;
+    border-radius: 0.5em;
+}
+
+/* ESPECIFICIDAD: 002*/
+main p {
+    grid-row: 4;
+    grid-column: 1/-1;
+    text-align: center;
+    padding-bottom: 5em;
+    color: #F81D06;
+    font-weight: bold;
+}
+
+/* ENCENDIDO SEMÁFORO */
+
+@keyframes turnOn {
+    0% {
+        background-color: #0007;
+    }
+    100% {
+        background-color: #F81D06;
+    }
+    
+}
+
+@keyframes out {
+    0% {
+        background-color: #F81D06;
+    }
+    100% {
+        background-color: #0007;
+    }
+}
+
+/* ESPECIFICIDAD: 022*/
+main.load div:first-of-type{
+    animation-name: turnOn;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}
+
+/* ESPECIFICIDAD: 022*/
+main.load div:nth-of-type(2){
+    animation-name: turnOn;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+
+/* ESPECIFICIDAD: 022*/
+main.load div:nth-of-type(3){
+    animation-name: turnOn;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+/* ESPECIFICIDAD: 022*/
+main.load div:nth-of-type(4){
+    animation-name: turnOn;
+    animation-duration: 0.5s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+/* ESPECIFICIDAD: 012*/
+main.unload div {
+    animation-name: out;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+}

@@ -1,0 +1,442 @@
+ 
+ /* Nahiara Sánchez García y UO295645*/
+
+ /* 
+ COLORES
+ - rojo: #F81D06
+ - blanco: #F8EEEA
+ - terracota: #96271D
+ - rosado: #EC8C86
+ - terracota oscuro: #791E16
+
+ COMBINACIONES POSIBLES:
+ - terracota-blanco --> TERRACOTA COLOR LETRA; BLANCO COLOR FONDO.
+ - rosado-negro --> 
+ - blanco-negro --> NEGRO COLOR LETRA; BLANCO COLOR FONDO.
+ - blanco-terracotaOscuro --> TERRACOTA OSCURO LETRA; 
+
+
+CHULETA DE USO: 
+- Fondo: #FEF7F7
+- Links: #96271D
+ */
+
+
+
+
+/* ESPECIFICIDAD: 001 */
+body{
+  font-family: "Calibri", sans-serif; 
+  color: #000; 
+  background-color: #fef7f7; 
+}
+
+/* ESPECIFICIDAD: 002 */
+body section {
+  padding: 1.6em;
+  border-bottom: 2px solid lightgray;
+}
+
+/* ESPECIFICIDAD: 002*/
+body h1 {
+  color: black;
+}
+
+h1 a {
+  color: #96271D; 
+  /* Hereda el color de fondo de header*/
+}
+
+
+/* ESPECIFICIDAD: 012 */
+h1 a:visited {
+  color: #4e1c18;
+  /* Hereda el color de fondo de header */
+}
+
+/* ESPECIFICIDAD: 012 */
+h1 a:hover {
+  color: #f81d06;
+  /* Hereda el color de fondo de header */
+}
+
+/* ESPECIFICIDAD: 012 */
+h1 a:focus {
+  color: #f81d06;
+  /* Hereda el color de fondo de header */
+}
+
+
+
+/************************************************************************************************************************************************/
+/* header y nav */
+
+
+/* ESPECIFICIDAD: 002 */
+body header {
+  font-family: "Calibri", sans-serif;
+  background-color: fef7f7; /* Color de fondo del header */
+  color: black; /* Color del texto */
+}
+
+/* ESPECIFICIDAD: 002 */
+body header h1 {
+  font-family: "Candara", sans-serif;
+  border-bottom: 0.08em solid #000;
+  padding-bottom: 0.1em;
+  display: inline-block;
+  font-size: 2em;
+  color: black;
+ /* Hereda el color de fondo de header */
+}
+
+/* ESPECIFICIDAD: 002 */
+body h2 {
+  color: #000;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding: 0.05em 0.05em;
+  /* Hereda el color de fondo de body*/
+}
+
+/* ESPECIFICIDAD: 004 */
+body header h1 a {
+  font-family: "Calibri", sans-serif;
+  text-decoration: none;
+  color: white; 
+
+  /* color de fondo especificado en el header*/
+}
+
+/* ESPECIFICIDAD: 003 */
+header nav a {
+  color: #96271D; 
+  font-weight: bold;
+}
+
+/* ESPECIFICIDAD: 013 */
+header nav a:visited {
+  color: black;
+  font-weight: normal;
+
+  /* Hereda el color de fondo de header */
+}
+
+/* ESPECIFICIDAD: 013 */
+header nav a:hover {
+  background-color: #96271D;
+  color: white;
+}
+
+/* ESPECIFICIDAD: 013 */
+header nav a.active {
+   
+  background-color: #96271D;
+  color: white;
+  font-weight: normal;
+}
+
+@media (max-width: 768px) {
+
+
+  /* ESPECIFICIDAD: 002 */
+  header h1 {
+      color: black;
+
+      /* Hereda el color de fondo de header */
+  }
+
+  /* ESPECIFICIDAD: 013 */
+  header nav a.active {
+      background-color: #96271D;
+      color: white;
+      font-weight: normal;
+
+      /* Redefinición de background-color para cambiar el color de fondo*/
+      /* Redefinición de color para cambiar el color del elemento*/
+      /* Redefinición de font-weight para quitar la negrita*/
+  }
+
+}
+
+/************************************************************************************************************************************************/
+
+/* ESTILO MENU DE JUEGOS */
+
+section nav{
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  color: white;
+  /* Borde alrededor del nav */
+  border: 3px solid #f81d06; /* Borde de color rosa (o el color que prefieras) */
+  border-radius: 12px; /* Esquinas redondeadas */
+  margin: 20px auto; /* Espacio alrededor del nav */
+}
+
+/* Estilo de los enlaces */
+section nav a {
+  display: inline-block;
+  color: white; /* Color del texto */
+  background-color: #96271D; /* Color de fondo del botón */
+  text-decoration: none; /* Eliminar subrayado */
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 12px; /* Bordes redondeados */
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+/* Efecto hover */
+section nav a:hover {
+  background-color: #f81d06; /* Color de fondo en hover */
+  transform: scale(1.1); /* Ampliación del botón al pasar el ratón */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* Sombra más intensa */
+}
+
+/* Efecto de clic */
+section nav a:active {
+  transform: scale(0.95); /* Efecto de reducción al hacer clic */
+}
+
+
+
+/************************************************************************************************************************/
+
+
+/* ESPECIFICIDAD: 012*/
+header + p:has(a) {
+  font-size: smaller;
+  padding: 0em 2.6em ;
+}
+
+
+
+/* ESPECIFICIDAD: 002 */
+p a {
+  color: #96271D; 
+  /* Hereda el color de fondo de header*/
+}
+
+
+/* ESPECIFICIDAD: 012 */
+p a:visited {
+  color: #4e1c18;
+  /* Hereda el color de fondo de body */
+}
+
+/* ESPECIFICIDAD: 012 */
+p a:hover {
+  color: #f81d06;
+  /* Hereda el color de fondo de body */
+}
+
+/* ESPECIFICIDAD: 012 */
+p a:focus {
+  color: #f81d06;
+  /* Hereda el color de fondo de body */
+}
+
+
+/* ESPECIFICIDAD: 001 */
+dt {
+  color: #96271D;
+  font-weight: bold;
+  /* Hereda el color de fondo de body */
+}
+
+/* ESPECIFICIDAD: 001 */
+ul {
+  list-style-type: none;  
+  margin-left: -0.1em; /* Ajusta el margen izquierdo para las listas no ordenadas */
+  padding-left: 0; /* Elimina el padding izquierdo por defecto */
+}
+
+ /* ESPECIFICIDAD: 002 */
+ul li {
+  position: relative;
+  font-size: 1em;
+  margin-left: 1.5em; /* Espacio para el marcador (punto) */
+  padding-left: 1.5em; /* Espacio extra para alinear el texto */
+}
+
+ /* ESPECIFICIDAD: 003 */
+ul li::before {
+  content: "•";
+  color: #96271D; /* color del icono */
+  font-weight: bold;
+  position: absolute; /* Posiciona el punto de forma absoluta */
+  left: 0; /* Alinea el punto al borde izquierdo del contenedor del li */
+  top: 0.2em; /* Ajuste vertical, puedes modificarlo si es necesario */
+
+  /* Hereda el color de fondo de body */
+}
+
+/* ESPECIFICIDAD: 001 */
+ol {
+  counter-reset: list-counter; /* Reinicia el contador para cada lista */
+  list-style: none; /* Elimina el estilo de lista predeterminado */
+  margin-left: 1.5em; /* Ajusta el margen izquierdo para alinearlo con ul */
+  padding-left: 0; /* Elimina el padding izquierdo por defecto */
+}
+
+/* ESPECIFICIDAD: 002 */
+ol li {
+  counter-increment: list-counter; /* Incrementa el contador para cada ítem */
+  position: relative; /* Necesario para el posicionamiento del número */
+  padding-left: 1.5em; /* Espacio para el número, lo ajustamos más pequeño */
+  margin-left: 0.2em; /* Margen izquierdo reducido para que no quede tan alejado */
+}
+
+/* ESPECIFICIDAD: 003 */
+ol li::before {
+  content: counter(list-counter) "."; /* Inserta el número antes del texto */
+  color: #96271D; /* Color del número */
+  font-size: 0.9em; /* Tamaño de fuente del número */
+  font-weight: bold; /* Peso del número */
+  position: absolute; /* Posición absoluta para colocar el número */
+  left: -0.5em; /* Mueve el número un poco más a la izquierda */
+  top: 0; /* Alineación vertical del número */
+
+  /* Hereda el color de fondo de body */
+}
+
+/* ESPECIFICIDAD: 002 */
+ul ul {
+  list-style-type: none;  
+  margin-left: -0.1em; /* Ajusta el margen izquierdo para las listas no ordenadas */
+  padding-left: 0; /* Elimina el padding izquierdo por defecto */
+}
+
+/* ESPECIFICIDAD: 003 */
+ul ul li  {
+  position: relative;
+  font-size: 1em;
+  margin-left: 1.5em; /* Espacio para el marcador (punto) */
+  padding-left: 1.5em; /* Espacio extra para alinear el texto */
+}
+
+/* ESPECIFICIDAD: 004 */
+ul ul li::before {
+  content: "-";
+  color: #96271D; /* color del icono */
+  font-weight: bold;
+  position: absolute; /* Posiciona el punto de forma absoluta */
+  left: 0; /* Alinea el punto al borde izquierdo del contenedor del li */
+  top: 0.2em; /* Ajuste vertical, puedes modificarlo si es necesario */
+
+  /* Hereda el color de fondo de body */
+}
+
+/* ESPECIFICIDAD: 001 */
+/* Estilos generales para la tabla */
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  /* Redefinición de width para el tamaño de la tabla en la pantalla */
+}
+
+/* ESPECIFICIDAD: 001 */
+caption {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #f81d06;
+  /* Hereda el color de fondo de body */
+}
+
+/* ESPECIFICIDAD: 002 */
+th, td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+
+  /* Redefinición de text-align para el alineamiento de los datos en la tabla*/
+}
+
+/* ESPECIFICIDAD: 001 */
+th {
+  background-color: #f4f4f4;
+}
+
+/* Hacer que las filas de la tabla se conviertan en columnas en dispositivos pequeños */
+@media (max-width: 768px) {
+  /* ESPECIFICIDAD: 001 */
+  table {
+      border: none; /* Eliminar los bordes de la tabla */
+      width: 100%;
+  }
+
+  /* ESPECIFICIDAD: 001 */
+  /* Ocultar encabezados de la tabla en pantallas pequeñas */
+  th {
+      display: none;
+  }
+
+  /* ESPECIFICIDAD: 001 */
+  /* Convertir las filas en bloques */
+  tr {
+      display: block;
+      margin-bottom: 15px; /* Espaciado entre las "filas" convertidas en bloques */
+      /* Redefinición de margin-botton para espaciar las filas */
+  }
+
+  /* ESPECIFICIDAD: 001 */
+  /* Convertir las celdas de las filas en una estructura vertical */
+  td {
+      display: block;
+      text-align: left;
+      padding: 10px;
+      position: relative;
+      border: none; /* Sin bordes entre celdas */
+  }
+
+  /* ESPECIFICIDAD: 002 */
+  /* Agregar una etiqueta de título antes de cada celda */
+  td::before {
+      content: attr(data-label);
+      font-weight: bold;
+      position: absolute;
+      left: 0;
+      top: 0;
+      padding-left: 5px;
+      text-transform: uppercase;
+      font-size: 0.85em;
+
+      /* Redefinición de padding-left para generar un padding a la izquierda.*/
+      /* Redefinición de font-weight para poner el texto en negrita*/
+  }
+
+  /* ESPECIFICIDAD: 011 */
+  /* Añadir un espaciado extra entre las celdas */
+  td:not(:first-child) {
+      padding-top: 15px;
+
+      /* Redefinición de padding para generar un padding por arriba */
+  }
+
+  /* ESPECIFICIDAD: 001 */
+  /* Estilo del caption */
+  caption {
+      font-size: 1.2em;
+  }
+}
+
+
+/* ESPECIFICIDAD: 001 */
+video {
+  width: 100%;
+  height: auto;
+}
+
+/* ESPECIFICIDAD: 001 */
+audio {
+  width: 50%; 
+}
+
+

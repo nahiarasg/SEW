@@ -6,29 +6,31 @@ section:has(article) {
     flex-wrap: wrap; /* Hace que los elementos se envuelvan en varias filas */
     gap: 0.625em; /* Espacio entre los elementos */
    /* padding: 1.25em; */
-    max-width: 90%;
+    max-width: 60%;
     margin: auto;
     justify-content: center;
 }
-  
+
 /* ESPECIFICIDAD: 012 */
 /* El encabezado debe ocupar la primera fila */
 section:has(article) h3  {
-    width: 100%; /* Hace que ocupe todo el ancho */
-    font-size: 1.25em;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-   
-    order: 0; /* Asegura que esté en la primera posición */
+  width: 100%; /* Hace que ocupe todo el ancho */
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+ 
+  order: 0; /* Asegura que esté en la primera posición */
 }
+  
+
   
 /* ESPECIFICIDAD: 001 */
 /* Estilos para las tarjetas */
 article {
     width: calc(20% - 0.625em); /* Ajusta el ancho para hacer las cartas un poco más grandes (20% de la fila, menos el espacio para márgenes) */
-    height: 17.5em; /* Aumenta la altura para que las cartas sean más grandes */
-    margin: 2em; /* Espacio entre las cartas */
+    height: 10em; /* Aumenta la altura para que las cartas sean más grandes */
+    margin: 1em; /* Espacio entre las cartas */
     transform: scale(1);
     cursor: pointer;
     transform-style: preserve-3d;
@@ -90,6 +92,7 @@ article[data-state=revealed] {
       display: flex;
       flex-wrap: wrap; /* Hace que los elementos se envuelvan en varias filas */
       gap: 0.625em; /* Espacio entre los elementos */
+      height: 5em; /* Aumenta la altura para que las cartas sean más grandes */
       padding: 1em;
       max-width: 100%;
       margin: auto;
@@ -114,6 +117,7 @@ article[data-state=revealed] {
       display: flex;
       flex-wrap: wrap; /* Hace que los elementos se envuelvan en varias filas */
       gap: 0.625em; /* Espacio entre los elementos */
+      height: 5em; /* Aumenta la altura para que las cartas sean más grandes */
       padding: 1em;
       max-width: 100%;
       margin: auto;

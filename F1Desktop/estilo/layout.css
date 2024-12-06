@@ -69,7 +69,7 @@ nav a.active {
 @media (max-width: 1440px) {
 
  body {
-   margin: 0em;
+   margin: 0.3em;
  }
 
   
@@ -134,7 +134,7 @@ nav a.active {
 @media (max-width: 768px) {
 
  body {
-   margin: 0em;
+   margin: 0.3em;
  }
 
   /* ESPECIFICIDAD: 001 */

@@ -119,14 +119,14 @@ article[data-state=revealed] {
       gap: 0.625em; /* Espacio entre los elementos */
       height: 5em; /* Aumenta la altura para que las cartas sean más grandes */
       padding: 1em;
-      max-width: 100%;
+      max-width: 80%;
       margin: auto;
       justify-content: center;
     }
   
     /* Garantiza mínimo 3 columnas incluso en pantallas pequeñas */
     article {
-      flex: 1 1 calc(33.33% - 0.625em);
+      flex: 1 1 calc(26% - 0.625em);
       max-width: calc(30% - 0.625em);
       margin: 0.25em;
     }

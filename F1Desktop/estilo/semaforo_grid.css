@@ -148,3 +148,23 @@ main.unload div {
         font-size: 1rem; /* Adjust text size */
     }
 }
+
+@media (max-width: 480px) { /* Mobile phones */
+    main {
+        width: 90%; /* Further reduce width for small screens */
+        gap: 2% 1%;
+    }
+
+    div {
+        border-width: 2px;
+        width: 70%; /* Ensure consistent size */
+    }
+
+    h3, main p {
+        font-size: 0.9rem;
+    }
+
+    button {
+        font-size: 0.8rem;
+    }
+}

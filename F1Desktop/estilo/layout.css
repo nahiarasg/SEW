@@ -64,6 +64,67 @@ nav a.active {
   border-radius: 0.25em;
 }
 
+
+/* Adaptabilidad con media queries */
+@media (max-width: 1440px) {
+  
+  
+  /* ESPECIFICIDAD: 001 */
+  /* Cambiar el diseño del header para pantallas pequeñas */
+  header {
+    flex-direction: column; /* Coloca los elementos (h1 y nav) en una columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    padding: 1em; /* Reduce el padding en pantallas pequeñas */
+
+    /* Redefinición de align-items para centrar los elementos*/
+    /* Redefinición de padding para reducir el padding*/
+  }
+
+  /* ESPECIFICIDAD: 002 */
+  /* Reducir el tamaño del h1 en móviles */
+  header h1 {
+    font-size: 1.5em; /* Hacer el título más pequeño en pantallas pequeñas */
+
+    /* Redefinición de font-size para hacer el titulo mas pequeño*/
+    /* Redefinición de color para cambiar el color del titulo*/
+  }
+
+  /* ESPECIFICIDAD: 001 */
+  /* Cambiar la navegación para pantallas pequeñas */
+  nav {
+    display: flex; /* Flexbox sigue habilitado */
+    flex-direction: row; /* Los enlaces de la navegación estarán en una fila */
+    flex-wrap: wrap;
+    width: 100%; /* Asegura que el menú ocupe todo el ancho disponible */
+    gap: 10px; /* Reduce el espacio entre los enlaces */
+    margin-top: 1em; /* Añade espacio entre el título y la navegación */
+    margin-left: 0.01em;
+    justify-content: center; /* Centra los enlaces */
+
+    /* Redefinición de display para el layout flex */
+    /* Redefinición de gap para reducir el espacio entre enlaces*/
+  }
+
+  /* ESPECIFICIDAD: 002 */
+  nav a {
+    padding: 1em 1em; /* Espaciado mayor en los enlaces */
+    width: auto; /* Los enlaces no ocupan todo el ancho disponible */
+    text-align: center; /* Centra el texto de los enlaces */
+
+    /* Redefinición de padding crear un espaciado mayor*/
+  }
+
+  /* ESPECIFICIDAD: 012 */
+  nav a.active {
+    border-radius: 0.25em;
+  }
+
+  /* ESPECIFIDAD: 013*/
+  header + p:has(a) {
+    display: none;
+  }
+
+}
   
 @media (max-width: 768px) {
 

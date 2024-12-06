@@ -152,13 +152,12 @@ main.unload div {
 @media (max-width: 480px) { /* Para móviles pequeños como iPhone 5 */
     main {
         width: 60%; 
-        height: 50%; 
+        height: 40%; 
         gap: 3% 2%; /* Reducimos los espacios */
     }
 
     div {
         border-width: 2px; /* Borde más delgado */
-        width: 70%; /* Aseguramos que los div sean más pequeños */
     }
 
     h3 {

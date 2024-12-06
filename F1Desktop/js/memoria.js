@@ -98,7 +98,7 @@ class Memoria {
 
     // Método que crea los elementos (cartas)
     createElements() {
-        var gameBoard = document.querySelectorAll('section')[1]; // Seleccionamos el contenedor de las cartas
+        var gameBoard = document.querySelectorAll('section')[2]; // Seleccionamos el contenedor de las cartas
 
         this.shuffledElements.forEach((el) => {
             const article = document.createElement('article');

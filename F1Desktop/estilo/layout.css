@@ -67,6 +67,11 @@ nav a.active {
 
 /* Adaptabilidad con media queries */
 @media (max-width: 1440px) {
+
+ body {
+   margin: 0em;
+ }
+
   
   
   /* ESPECIFICIDAD: 001 */

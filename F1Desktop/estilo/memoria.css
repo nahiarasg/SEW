@@ -9,6 +9,7 @@ section:has(article) {
     max-width: 60%;
     margin: auto;
     justify-content: center;
+    padding-bottom: 3em;
 }
 
 /* ESPECIFICIDAD: 012 */
@@ -97,6 +98,7 @@ article[data-state=revealed] {
       max-width: 60%;
       margin: auto;
       justify-content: center;
+     padding-bottom: 3em;
     }
   
     /* Garantiza 4 columnas */
@@ -122,6 +124,7 @@ article[data-state=revealed] {
       max-width: 80%;
       margin: auto;
       justify-content: center;
+        padding-bottom: 3em;
     }
   
     /* Garantiza mínimo 3 columnas incluso en pantallas pequeñas */

@@ -31,11 +31,6 @@ body{
   background-color: #fef7f7; 
 }
 
-/* ESPECIFICIDAD: 002 */
-body section {
-  padding: 1.6em;
-  border-bottom: 2px solid lightgray;
-}
 
 /* ESPECIFICIDAD: 002*/
 body h1 {

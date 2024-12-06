@@ -1,0 +1,202 @@
+
+ /* Nahiara Sánchez García y UO295645*/
+
+ * {
+  box-sizing: border-box;  /* Asegura que el padding y los márgenes no se sumen al ancho de los elementos */
+  }
+
+/* ESPECIFICIDAD: 001*/
+body {
+  width: 100%;
+  height: 100%;
+  margin: 3em;
+}
+
+/*******************************************************************************************/
+/* MENU DE NAVEGACIÓN */
+
+
+/* ESPECIFICIDAD: 001 */
+/* Esto alinea el título h1 y el menú de navegación */
+header {
+  width: 95%;
+  display: flex;
+  align-items: center; /* Centra verticalmente los elementos */
+  justify-content: space-between; /* Coloca el título a la izquierda y el menú a la derecha */
+  padding-bottom: 1em;
+  
+}
+
+/* ESPECIFICIDAD: 002 */
+header h1 {
+  margin: 0; /* Elimina márgenes alrededor del título */
+  ;
+}
+
+/* ESPECIFICIDAD: 003 */
+header h1 a {
+  text-decoration: none;
+  /* Hereda el color de fondo de header */
+}
+
+/* ESPECIFICIDAD: 001 */
+/* Aplicar flex a la navegación. */
+nav {
+  display: flex;
+  gap: 1.2em; /* Espacio entre los enlaces */
+}
+
+/* ESPECIFICIDAD: 002 */
+nav a {
+  padding: 0.3em 0.5em;
+}
+
+nav a:last-child {
+  margin-right: 0; /* Elimina margen en el último elemento */
+}
+
+
+/* ESPECIFICIDAD: 012 */
+nav a:hover {
+  border-radius: 4px;
+}
+
+/* ESPECIFICIDAD: 012 */
+nav a.active {
+  border-radius: 0.25em;
+}
+
+  
+/* Adaptabilidad con media queries */
+@media (max-width: 1440px) {
+
+  body {
+    margin: 0.5em;
+  }
+  
+  
+  /* ESPECIFICIDAD: 001 */
+  /* Cambiar el diseño del header para pantallas pequeñas */
+  header {
+    flex-direction: column; /* Coloca los elementos (h1 y nav) en una columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    padding: 1em; /* Reduce el padding en pantallas pequeñas */
+
+    /* Redefinición de align-items para centrar los elementos*/
+    /* Redefinición de padding para reducir el padding*/
+  }
+
+  /* ESPECIFICIDAD: 002 */
+  /* Reducir el tamaño del h1 en móviles */
+  header h1 {
+    font-size: 1.5em; /* Hacer el título más pequeño en pantallas pequeñas */
+
+    /* Redefinición de font-size para hacer el titulo mas pequeño*/
+    /* Redefinición de color para cambiar el color del titulo*/
+  }
+
+  /* ESPECIFICIDAD: 001 */
+  /* Cambiar la navegación para pantallas pequeñas */
+  nav {
+    display: flex; /* Flexbox sigue habilitado */
+    flex-direction: row; /* Los enlaces de la navegación estarán en una fila */
+    flex-wrap: wrap;
+    width: 100%; /* Asegura que el menú ocupe todo el ancho disponible */
+    gap: 10px; /* Reduce el espacio entre los enlaces */
+    margin-top: 1em; /* Añade espacio entre el título y la navegación */
+    margin-left: 0.01em;
+    justify-content: center; /* Centra los enlaces */
+
+    /* Redefinición de display para el layout flex */
+    /* Redefinición de gap para reducir el espacio entre enlaces*/
+  }
+
+  /* ESPECIFICIDAD: 002 */
+  nav a {
+    padding: 1em 1em; /* Espaciado mayor en los enlaces */
+    width: auto; /* Los enlaces no ocupan todo el ancho disponible */
+    text-align: center; /* Centra el texto de los enlaces */
+
+    /* Redefinición de padding crear un espaciado mayor*/
+  }
+
+  /* ESPECIFICIDAD: 012 */
+  nav a.active {
+    border-radius: 0.25em;
+  }
+
+  /* ESPECIFIDAD: 013*/
+  header + p:has(a) {
+    display: none;
+  }
+
+}
+
+
+  
+@media (max-width: 768px) {
+
+  body {
+    margin: 0.5em;
+  }
+  
+
+  /* ESPECIFICIDAD: 001 */
+  /* Cambiar el diseño del header para pantallas pequeñas */
+  header {
+      flex-direction: column; /* Coloca los elementos (h1 y nav) en una columna */
+      align-items: center; /* Centra los elementos horizontalmente */
+      padding: 1em; /* Reduce el padding en pantallas pequeñas */
+
+      /* Redefinición de align-items para centrar los elementos*/
+      /* Redefinición de padding para reducir el padding*/
+  }
+
+  /* ESPECIFICIDAD: 002 */
+  /* Reducir el tamaño del h1 en móviles */
+  header h1 {
+      font-size: 1.5em; /* Hacer el título más pequeño en pantallas pequeñas */
+ 
+
+      /* Redefinición de font-size para hacer el titulo mas pequeño*/
+  }
+
+  /* ESPECIFICIDAD: 001 */
+  /* Cambiar la navegación para pantallas pequeñas */
+  nav {
+      display: flex; /* Flexbox sigue habilitado */
+      flex-direction: row; /* Los enlaces de la navegación estarán en una fila */
+      flex-wrap: wrap;
+      width: 100%; /* Asegura que el menú ocupe todo el ancho disponible */
+      gap: 10px; /* Reduce el espacio entre los enlaces */
+      margin-top: 1em; /* Añade espacio entre el título y la navegación */
+      margin-left: 0.01em;
+      justify-content: center; /* Centra los enlaces */
+
+      /* Redefinición de display para el layout flex */
+      /* Redefinición de gap para reducir el espacio entre enlaces*/
+  }
+
+  /* ESPECIFICIDAD: 002 */
+  nav a {
+      padding: 1em 1em; /* Espaciado mayor en los enlaces */
+      width: auto; /* Los enlaces no ocupan todo el ancho disponible */
+      text-align: center; /* Centra el texto de los enlaces */
+
+      /* Redefinición de padding crear un espaciado mayor*/
+  }
+
+  /* ESPECIFICIDAD: 012 */
+  nav a.active {
+      border-radius: 0.25em;
+  }
+
+  /* ESPECIFIDAD: 013*/
+  header + p:has(a) {
+      display: none;
+  }
+
+
+
+
+}

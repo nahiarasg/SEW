@@ -84,6 +84,13 @@ body header h1 {
   color: black;
  /* Hereda el color de fondo de header */
 }
+/* ESPECIFICIDAD: 004 */
+body header h1 a {
+  font-family: "Calibri", sans-serif;
+  text-decoration: none;
+
+  /* color de fondo especificado en el header*/
+}
 
 /* ESPECIFICIDAD: 002 */
 body h2 {
@@ -96,14 +103,7 @@ body h2 {
   /* Hereda el color de fondo de body*/
 }
 
-/* ESPECIFICIDAD: 004 */
-body header h1 a {
-  font-family: "Calibri", sans-serif;
-  text-decoration: none;
-  color: white; 
 
-  /* color de fondo especificado en el header*/
-}
 
 /* ESPECIFICIDAD: 003 */
 header nav a {

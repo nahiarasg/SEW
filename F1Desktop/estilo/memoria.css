@@ -119,7 +119,7 @@ article[data-state=revealed] {
       display: flex;
       flex-wrap: wrap; /* Hace que los elementos se envuelvan en varias filas */
       gap: 0.625em; /* Espacio entre los elementos */
-      height: 5em; /* Aumenta la altura para que las cartas sean más grandes */
+      height: 3em; /* Aumenta la altura para que las cartas sean más grandes */
       padding: 1em;
       max-width: 80%;
       margin: auto;

@@ -149,22 +149,26 @@ main.unload div {
     }
 }
 
-@media (max-width: 480px) { /* Mobile phones */
+@media (max-width: 480px) { /* Para móviles pequeños como iPhone 5 */
     main {
-        width: 90%; /* Further reduce width for small screens */
-        gap: 2% 1%;
+        gap: 3% 2%; /* Reducimos los espacios */
     }
 
     div {
-        border-width: 2px;
-        width: 70%; /* Ensure consistent size */
+        border-width: 2px; /* Borde más delgado */
+        width: 70%; /* Aseguramos que los div sean más pequeños */
     }
 
-    h3, main p {
-        font-size: 0.9rem;
+    h3 {
+        font-size: 1rem; /* Texto del título más pequeño */
+    }
+
+    main p {
+        font-size: 0.8rem; /* Texto más pequeño para ajustar */
     }
 
     button {
-        font-size: 0.8rem;
+        font-size: 0.7rem; /* Botones más pequeños */
+        padding: 0.3em 0.8em; /* Espaciado reducido */
     }
 }
